@@ -1,0 +1,56 @@
+/* Banner */
+.Banner {
+    background-color: white;
+    background-image: url('/workspaces/CodeFest2023-DebugThugs/codefest2023/src/assets/logo_1.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 1600px; /* To extend the banner across the entire width */
+    height: 90px;
+}
+
+/* Main Body */
+.MainBody {
+    background-color: #3C6EB4;
+    color: white; /* Text color for better readability on a dark background */
+    width: 1920px; /* To extend the main body across the entire width */
+    height: 800px;
+    position: relative
+}
+
+.Signin {
+    position: absolute;
+    top: 200px;
+    left: 625px;
+    background-color: white;
+    color: blue;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10; /* Remove border radius for a rectangular button */
+    display: block;
+    margin: 0 auto;
+    text-align: center; /* Center text horizontally */
+    width: 364px; /* Make the button span the entire width of the main body */
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);    
+}
+
+.SignUp {
+    position: absolute;
+    top: 400px;
+    left: 625px;
+    background-color: white;
+    color: blue;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10; /* Remove border radius for a rectangular button */
+    display: block;
+    margin: 0 auto;
+    text-align: center; /* Center text horizontally */
+    width: 364px; /* Make the button span the entire width of the main body */
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);    
+}

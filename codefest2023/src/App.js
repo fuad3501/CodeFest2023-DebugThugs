@@ -5,9 +5,9 @@ function App() {
   return (
     <>
       <LoginPage />
-      <LandingPage />
+      {/* <LandingPage />
       <ClientChat />
-      <TherapistChats />
+      <TherapistChats /> */}
 
     </>
 
