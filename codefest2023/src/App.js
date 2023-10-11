@@ -1,9 +1,10 @@
 import './App.css';
-import {LoginPage, LandingPage, ClientChat, TherapistChats,Register} from "./pages/index";
+import {LoginPage, LandingPage, ClientChat, TherapistChats,Register,Logo} from "./pages/index";
 
 function App() {
   return (
     <main className='App'>
+      <header><Logo></Logo></header>
       <LoginPage />
       {/* <LandingPage />
       <ClientChat />
