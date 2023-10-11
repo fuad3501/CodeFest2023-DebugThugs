@@ -1,0 +1,6 @@
+Git hub repo linked to azure web app
+Continuous deployment
+Runs application.py
+Get ip running on, add to package.json in javascript stuff- allows react scripts to interact with flask
+
+What we need flask file, requirements.txt
