@@ -1,15 +1,16 @@
 import './App.css';
-import {LoginPage, LandingPage, ClientChat, TherapistChats} from "./pages/index";
+import {LoginPage, LandingPage, ClientChat, TherapistChats,Register} from "./pages/index";
 
 function App() {
   return (
-    <>
+    <main className='App'>
       <LoginPage />
-      <LandingPage />
+      {/* <LandingPage />
       <ClientChat />
-      <TherapistChats />
+      <TherapistChats /> */}
+      {/* <Register /> */}
 
-    </>
+    </main>
 
   );
 }
