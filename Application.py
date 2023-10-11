@@ -36,7 +36,12 @@ def create_connection(db_file):
     """ create a database connection to a SQLite database """
     con = sqlite3.connect(db_file)
     return con
-    
+
+def alterTable():
+    cur = con.cursor()
+    cur.executescript("""
+    ALTER TABLE ChatLogs ADD SenderType INTEGER;
+    """)
 
 def insertData():
     cur = con.cursor() 
@@ -97,12 +102,15 @@ CREATE TABLE ChatLogs (
     FOREIGN KEY (clientUserId) REFERENCES clientUser(clientUserId)
 );
 
+ALTER TABLE ChatLogs ADD SenderType INTEGER;
+
+
 
         
         """) 
 if __name__ == '__main__':
     con=create_connection("data.db")
-    createTables()
+    alterTable()
     app.run(debug=True)
 
 
